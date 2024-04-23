@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "build": "echo 'No build step!'"
+    "build": "tsc",
+    "start": "node ./dist/api/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^4.x",
+    "ts-node": "^x.x"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "@types/node": "^20.12.7"
   }
 }
