@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node ./dist/api/index.js"
+    "start": "ts-node ./api/index.ts",  
+    "build": "tsc",                     
+    "serve": "node ./dist/api/index.js" 
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
-    "typescript": "^4.x",
-    "ts-node": "^x.x"
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
   },
   "keywords": [],
   "author": "",
